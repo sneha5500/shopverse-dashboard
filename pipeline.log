@@ -1,0 +1,54 @@
+=== Pipeline Run: Tue Jul  8 19:54:38 CDT 2025 ===
+Raw data preview:
+   OrderID   OrderDate StoreID  ... UnitPrice TotalAmount PaymentMethod
+0        1  2024-11-23    S001  ...    338.70     1354.80   Credit Card
+1        2  2024-12-12    S001  ...    145.07      145.07          Cash
+2        3  2024-09-15    S001  ...    632.18     5689.62    Debit Card
+3        4  2024-10-28    S003  ...    513.67     3595.69          Cash
+4        5  2024-04-20    S003  ...    541.67     1083.34           UPI
+
+[5 rows x 10 columns]
+
+Cleaned data preview:
+   OrderID   OrderDate StoreID  ... UnitPrice TotalAmount PaymentMethod
+0        1  2024-11-23    S001  ...    338.70     1354.80   Credit Card
+1        2  2024-12-12    S001  ...    145.07      145.07          Cash
+2        3  2024-09-15    S001  ...    632.18     5689.62    Debit Card
+3        4  2024-10-28    S003  ...    513.67     3595.69          Cash
+4        5  2024-04-20    S003  ...    541.67     1083.34           UPI
+
+[5 rows x 10 columns]
+
+✅ Data loaded into SQLite DB at /Users/snehagurram/retail_pipeline_project/retail_data.db
+✅ All charts saved in outputs/ folder, no popups this time.
+=== Pipeline End ===
+=== Pipeline Run: Wed Jul  9 11:52:45 CDT 2025 ===
+Raw data preview:
+   OrderID   OrderDate StoreID  ... UnitPrice TotalAmount PaymentMethod
+0        1  2024-11-23    S001  ...    338.70     1354.80   Credit Card
+1        2  2024-12-12    S001  ...    145.07      145.07          Cash
+2        3  2024-09-15    S001  ...    632.18     5689.62    Debit Card
+3        4  2024-10-28    S003  ...    513.67     3595.69          Cash
+4        5  2024-04-20    S003  ...    541.67     1083.34           UPI
+
+[5 rows x 10 columns]
+
+Cleaned data preview:
+   OrderID   OrderDate StoreID  ... UnitPrice TotalAmount PaymentMethod
+0        1  2024-11-23    S001  ...    338.70     1354.80   Credit Card
+1        2  2024-12-12    S001  ...    145.07      145.07          Cash
+2        3  2024-09-15    S001  ...    632.18     5689.62    Debit Card
+3        4  2024-10-28    S003  ...    513.67     3595.69          Cash
+4        5  2024-04-20    S003  ...    541.67     1083.34           UPI
+
+[5 rows x 10 columns]
+
+✅ Data loaded into SQLite DB at /Users/snehagurram/retail_pipeline_project/retail_data.db
+
+📦 Updating inventory...
+⚠️  Low stock items detected and saved to: /Users/snehagurram/retail_pipeline_project/outputs/low_stock.csv
+✅ Inventory stock quantities updated based on sales.
+✅ All charts saved in outputs/ folder, no popups this time.
+📊 Generating monthly charts per store...
+⚠️  Low stock items detected and saved to: /Users/snehagurram/retail_pipeline_project/outputs/low_stock.csv
+=== Pipeline End ===

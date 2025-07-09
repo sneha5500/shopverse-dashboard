@@ -1,0 +1,4 @@
+CustomerID,CustomerName,Email,Phone,JoinDate,TotalSpend,LoyaltyPoints,Tier,ProfileImagePath
+C001,Sneha Reddy,sneha@email.com,1234567890,2023-06-01,23000,1200,Gold,profile_c001.jpg
+C002,Varun Tej,varun@email.com,9876543210,2023-08-10,9000,300,Silver,profile_c002.jpg
+C003,Kavya Rao,kavya@email.com,8888888888,2024-01-15,5000,200,Bronze,profile_c003.jpg
